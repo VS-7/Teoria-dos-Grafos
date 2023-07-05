@@ -1,4 +1,5 @@
 // Lincoln Martins de Oliveira                                                  2021008452                      Data: 29/06/2023
+// Vitor Sérgio Teixeira Silva                                                  2021008855                      Data: 29/06/2023
 // Breve comentario sobre o codigo: 
 // Contém a definição da classe Sudoku, que é responsável pela resolução do jogo de Sudoku usando técnicas de coloração de grafos.
 //----------------------------------------------------------------------------------------------------------------------------------------------------------

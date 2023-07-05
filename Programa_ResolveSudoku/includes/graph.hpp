@@ -1,4 +1,5 @@
 // Lincoln Martins de Oliveira                                                  2021008452                      Data: 29/06/2023
+// Vitor Sérgio Teixeira Silva                                                  2021008855                      Data: 29/06/2023
 // Breve comentario sobre o codigo: 
 // Contém a definição da classe Graph, que representa um grafo não direcionado. Um grafo é uma estrutura de dados composta por um conjunto de vértices (ou nós) conectados por arestas.
 // O objetivo do algoritmo é fornecer métodos para manipular e interagir com esse grafo.

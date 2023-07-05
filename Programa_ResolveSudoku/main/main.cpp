@@ -26,8 +26,8 @@ int main() {
     int Backtracking_ou_WelshPowell;
 
     // Lê os dados do arquivo e implanta na instância do Sudoku
-    bool read = sudoku.loadBoardFromFile(fileDirectory+"sudoku_data_3.txt");
-    cout << "Qual algoritimo voce gostaria de usar (0 para o algoritimo Welsh Powell, 1 para o algoritimo Backtracking):" << endl;
+    bool read = sudoku.loadBoardFromFile(fileDirectory+"sudoku_data_5.txt");
+    cout << "Qual algoritimo voce gostaria de usar? ([0] para o algoritimo Welsh Powell, [1] para o algoritimo Backtracking):" << endl;
     cin >> Backtracking_ou_WelshPowell;
 
     if (read) {
@@ -46,14 +46,14 @@ int main() {
             // Aplica o algoritmo para colorir Welsh Powell
             sudoku.welshPowellAlgorithm();
 
-            cout << "Tabuleiro com a resolucao completa ou parcial utilizando o Welsh Powell:";
+            cout << "\nTabuleiro com a resolucao completa ou parcial utilizando o Welsh Powell:";
             sudoku.showFullBoardwelshPowell();
 
         }else{
             // Aplica o algoritmo Backtracking
             sudoku.backtrackingAlgorithm();
 
-            cout << "Tabuleiro com a resolucao completa ou parcial utilizando o Backtracking:";
+            cout << "\nTabuleiro com a resolucao completa ou parcial utilizando o Backtracking:";
             sudoku.showFullBoardwelshPowell();
         }
 

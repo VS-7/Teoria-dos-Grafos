@@ -1,4 +1,5 @@
 // Lincoln Martins de Oliveira                                                  2021008452                      Data: 29/06/2023
+// Vitor Sérgio Teixeira Silva                                                  2021008855                      Data: 29/06/2023
 // Breve comentario sobre o codigo:
 //contém a implementação dos métodos da classe Graph, definida no arquivo "graph.hpp". 
 //Essa implementação define o comportamento dos métodos e as operações realizadas em um grafo não direcionado. 
